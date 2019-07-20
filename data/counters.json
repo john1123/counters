@@ -1,0 +1,22 @@
+{
+    "light": {
+        "name": "Свет общий",
+        "description": "",
+        "service": "light"
+    },
+    "light1": {
+        "name": "Свет общий",
+        "description": "",
+        "parent": "light"
+    },
+    "gas": {
+        "name": "Счётчик газа",
+        "description": "",
+        "service": "gas"
+    },
+    "water": {
+        "name": "Счётчик воды",
+        "description": "",
+        "service": "water"
+    }
+}

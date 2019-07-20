@@ -1,0 +1,17 @@
+{
+    "light": {
+        "name": "Электричество",
+        "description": "",
+        "price": 3.81 
+    },
+    "water": {
+        "name": "Холодная вода",
+        "description": "",
+        "price": 31.55
+    },
+    "gas": {
+        "name": "Природный газ",
+        "description": "",
+        "price": 5.18711
+    }
+}
