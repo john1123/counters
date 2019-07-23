@@ -50,6 +50,11 @@ var App = (function(){
             switch (pageId) {
                 case mainPage:
                     break;
+                case "history":
+                    for (key in history) {
+                        console.log(history[key]);
+                    }
+                    break;
                 case "counters":
                     break;
             }
