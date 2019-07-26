@@ -1,3 +1,5 @@
+"use strict";
+
 $(document).ready(function() {
     App.init();
 });
@@ -51,8 +53,18 @@ var App = (function(){
                 case mainPage:
                     break;
                 case "history":
-                    for (key in history) {
-                        console.log(history[key]);
+                    var cols = [];
+                    for (date in history) {
+                        if (history.hasOwnProperty(date)) {
+
+                        }
+                        var dateRecord = history[date];
+                        for (counterId in dateRecord) {
+                            var colIdx = cols.indexOf(counterId);
+                            if(colIdx != -1) {
+
+                            }
+                        }
                     }
                     break;
                 case "counters":
